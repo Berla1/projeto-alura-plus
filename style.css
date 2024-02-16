@@ -84,7 +84,6 @@ body {
     font-size: 3em;
     font-weight: 700;
     margin-bottom: 0.15em;
-    padding: ;
 }
 
 .texto{
@@ -112,4 +111,50 @@ body {
     flex-direction: column;
     gap: 1em;
     margin: 0 7em 0 7.5em; 
+}
+
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-size: 48px;
+    margin-bottom: 2em;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 68px;
+}
+
+.lista__itens{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.rodape{
+    text-align: center;
+    margin-top: 145px;
+    margin: 4.5em;
+}
+
+.rodape__ajuda{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.texto__rodape{
+    color: var(--branco-principal);
+}
+
+.rodape__copyright{
+    margin: 24px;
+}
+
+.rodape__texto__direitos{
+    font-size: 14px;
+
 }
